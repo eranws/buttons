@@ -1,0 +1,70 @@
+<!doctype html>
+ 
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$("#toggle").mousedown(function(){
+				$("#toggle,.p").hide();
+			});
+			$("#toggle").mouseup(function(){
+				$("#toggle,.p").show();
+			});
+		});
+	</script>
+
+
+
+    <style>
+    #format { margin-top: 2em; }
+    </style>
+</head>
+<body>
+
+ 
+<h1>
+Six levels of intelligent interaction
+</h1>
+
+<div>
+Static
+<div/>
+
+<div>
+Responsive deterministic:
+<p> Stateless</p>
+<div/>
+
+<button>Toggle</button>
+<div id="toggle">
+a
+<p> With State (toggle)</p>
+
+<div/>
+
+
+<div>
+Adaptive to the environment
+(...and responsive to user)
+<div/>
+
+<div>
+Adaptive to the user
+<div/>
+
+<div>
+Establish communication with the user
+<div/>
+
+<div>
+Full theory-of-mind
+<div/>
+
+ 
+ 
+</body>
+</html>
+
