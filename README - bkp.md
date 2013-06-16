@@ -1,3 +1,15 @@
+<link href="markdown.css" rel="stylesheet"></link>
+
+<tt "http://kevinburke.bitbucket.org/markdowncss/markdown.css">
+</tt>
+
+
+
+
+
+
+<todo: derivatives>
+
 buttons
 =======
 
@@ -61,17 +73,20 @@ set(T)
 
 ###example of complex behavior:
 # ~ My Water Heater ~
+####it has **twenty four** hour clock, in a **quarters**
 
-it has **twenty four** hour clock, in a **quarters** so it has **nine-ty** six *toggles*, which means **2^96** possible *states*. there is a on-off *toggle*, connected serially to a *tri*-*state* switch.
+#so it has **nine-ty** six *toggles*
 
-it has possibly **six** *configurations*, out of them I need three - Which *are already in* the tri-state switch!
+##which means **2^96** possible *states*
 
-# derivatives:
-## a state with a non-linear response 
+##there is a on-off *toggle*, connected
 
-a type <with a state> can change its a state in a non linear manner, e.g: double its value on each press, 
+##! @d@  #u# **SERIALY** #m# @b@ !
 
-responsive to events: down, up, long press, hover in/out
+#to a *tri*-*state* switch.
 
-#Project
-extend [jQuery UI](http://jqueryui.com/), using more sophisticated buttons
+it has possibly **six** *configurations*, out of them I need three
+
+### Which *are already in* the tri-state switch!
+
+
